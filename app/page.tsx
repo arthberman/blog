@@ -1,4 +1,8 @@
-import { Github01Icon, NewTwitterIcon } from "@hugeicons/core-free-icons";
+import {
+  Github01Icon,
+  Linkedin01Icon,
+  NewTwitterIcon,
+} from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import Link from "next/link";
 
@@ -41,6 +45,15 @@ export default function Page() {
               >
                 <HugeiconsIcon icon={Github01Icon} size={18} />
               </a>
+              <a
+                href="https://www.linkedin.com/in/arthberman/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-zinc-400 transition-colors hover:text-zinc-900"
+                aria-label="LinkedIn"
+              >
+                <HugeiconsIcon icon={Linkedin01Icon} size={18} />
+              </a>
             </div>
           </div>
         </header>
@@ -52,8 +65,8 @@ export default function Page() {
 
           <div className="space-y-4 text-sm leading-relaxed text-zinc-600">
             <p>
-              I grew up in Paris and studied Computer Science and AI at
-              CentraleSupélec (France).
+              I'm a software engineer. I grew up in Paris and studied Computer
+              Science and AI at CentraleSupélec.
             </p>
 
             <p>
